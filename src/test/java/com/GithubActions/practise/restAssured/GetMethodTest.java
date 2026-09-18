@@ -1,6 +1,7 @@
 package com.GithubActions.practise.restAssured;
 
-import static io.restassured.RestAssured.*;   // correct static import
+// correct static import
+import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 //import org.testng.annotations.Test; 
@@ -18,5 +19,6 @@ public void getUsers() {
 			.log().body();
 		
 	}
+//	Added comment to this file
 
 }
